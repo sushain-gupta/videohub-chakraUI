@@ -93,8 +93,6 @@ export default function Previews(props) {
           justifyContent={'center'}
           display={'flex'}
           padding={'10'}
-          // background={'gray.700'}
-          // textColor={'gray.200'}
           border={'2px'}
           borderStyle={'dashed'}
           borderColor={'gray.500'}
@@ -106,7 +104,6 @@ export default function Previews(props) {
         </Box>
         <aside style={thumbsContainer}>{thumbs}</aside>
       </Box>
-      {/* </Box> */}
     </HStack>
   );
 }
